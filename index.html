@@ -1026,8 +1026,10 @@ function esc(str) {
 return (str || ‘’).replace(/&/g,’&’).replace(/</g,’<’).replace(/>/g,’>’);
 }
 
+document.addEventListener(‘DOMContentLoaded’, function() {
 renderTabs();
 renderOutlinePage();
+});
 </script>
 
 </body>
